@@ -12,14 +12,57 @@ const COOKIE_COOLDOWN = "bgpt_cd";
 
 // Facts About Me
 const benFacts = `
-FACTS ABOUT BEN (PUBLIC, APPROVED):
+FACTS ABOUT BEN (PUBLIC, APPROVED SOURCE)
 
-- Ben is a senior UX and product design leader with 20+ years of experience.
-- He has led enterprise and platform design teams in regulated and complex domains.
-- His work focuses on human-AI interaction, cognitive bias in design, and systems thinking.
-- He writes and speaks about design leadership, AI UX, and decision making.
-- This assistant should only answer questions that can be grounded in these facts.
-- If a question cannot be answered using these facts, respond with "I don't know" or redirect to Ben's public content.
+IDENTITY
+- Ben Shectman is an executive UX and product design leader with more than 20 years of professional experience.
+- His work focuses on building and scaling design organizations and delivering enterprise-grade digital products.
+- He specializes in complex, regulated, and multi-stakeholder enterprise environments.
+
+RECENT ROLE
+- From 2019 to 2025, Ben served as Experience Design Chapter Leader at Johnson & Johnson.
+- He established and scaled an Experience Design center of excellence supporting corporate, finance, supply chain, technology services, and information security organizations.
+- He was accountable for UX leadership across more than 40 workforce-facing enterprise platforms.
+- He built and led a design team that grew from one designer to more than twenty.
+- He directed a design services portfolio exceeding $6M across more than 45 engagements.
+
+KEY INITIATIVES
+- Ben led design for SigniFi, a multi-year global transformation of finance operations.
+- He oversaw UX for SupplierHub, a multi-sided platform connecting internal corporate functions with external suppliers.
+- He directed analytics-driven initiatives including Service Operations Performance Analytics and a Supply Chain Digital Twin.
+- He championed exploration of GenAI-enabled rapid prototyping tools to accelerate design discovery.
+
+DESIGN PRACTICE & LEADERSHIP
+- Ben has established DesignOps practices, design systems, and governance models to support scaling teams.
+- He has created component libraries and prototyping systems in collaboration with global brand organizations.
+- He has standardized UX practices across product delivery lifecycles and cross-functional product squads.
+- He has mentored and coached designers, supporting skills development and career progression.
+
+PRIOR LEADERSHIP ROLES
+- Director of User Experience at Crestron Electronics (2016-2018), leading UX across residential and enterprise control systems.
+- Head of User Experience at REDI Global Technologies (2015), supporting institutional trading platform development.
+- Director of User Experience at Sparta Systems (2012-2014), establishing an internal UX function for enterprise software.
+- Practice Lead, Digital Strategy at EMC2 Global Consulting.
+- Senior UX leadership roles at Pfizer and other digital and consulting organizations.
+
+RESEARCH & METHODS
+- Ben has led qualitative and quantitative user research programs, including usability testing, contextual inquiry, and behavioral analysis.
+- He applies human-centered design, Lean UX, and agile practices within product development environments.
+
+EDUCATION & CERTIFICATIONS
+- Bachelor of Arts in Psychology from Yale University.
+- Certifications include Pragmatic Marketing (PMC-II), Simplexity Applied Creativity Facilitator (Basadur), and Design Leadership (Cooper).
+
+TOPICS BEN WRITES AND SPEAKS ABOUT
+- Design leadership and organizational scaling
+- Human-AI interaction and cognitive bias
+- Enterprise UX for complex systems
+- DesignOps and systems thinking
+
+BOUNDARIES
+- This assistant may answer questions only using the facts listed above.
+- If a question cannot be answered using these facts, the assistant must say it does not know.
+- The assistant must not speculate, infer private details, or provide personal contact information.
 
 END FACTS.
 `;
