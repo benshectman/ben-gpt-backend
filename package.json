@@ -1,0 +1,24 @@
+{
+  "name": "ben-gpt-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benshectman/ben-gpt-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/benshectman/ben-gpt-backend/issues"
+  },
+  "homepage": "https://github.com/benshectman/ben-gpt-backend#readme",
+  "dependencies": {
+    "@netlify/blobs": "^10.5.0"
+  }
+}
